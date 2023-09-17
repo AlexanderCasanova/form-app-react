@@ -1,0 +1,70 @@
+/* Estilos para el título */
+*{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: content-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 128, 0.7), #333);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  width: 300px;
+  margin: 0 auto;
+  background: rgba(0, 0, 128, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  margin: auto;
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
